@@ -1,59 +1,102 @@
-# 📊 Real-Time Sales & Customer Analytics — Built on AWS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real-Time Sales & Customer Analytics — Built on AWS</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.7;
+      padding: 2rem 3rem;
+      background-color: #f9fafb;
+      color: #111827;
+    }
+    h1, h2 {
+      color: #1f2937;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      border-bottom: 1px solid #d1d5db;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    blockquote {
+      background: #eef2f7;
+      border-left: 5px solid #3b82f6;
+      margin: 1.5rem 0;
+      padding: 1rem 1.5rem;
+      font-style: italic;
+    }
+    em {
+      color: #4b5563;
+    }
+    strong {
+      color: #111827;
+    }
+  </style>
+</head>
+<body>
 
-This project is a real-world business intelligence solution powered by AWS cloud services. It’s designed to show how data can drive better decisions—by turning raw sales and customer data into insights that are meaningful, visual, and actionable.
+  <h1>📊 Real-Time Sales & Customer Analytics — Built on AWS</h1>
 
-Whether it’s sales trends, churn predictions, or campaign performance, this pipeline brings everything together into one interactive view.
+  <p>This project is a real-world business intelligence solution powered by AWS cloud services. It’s designed to show how data can drive better decisions—by turning raw sales and customer data into insights that are meaningful, visual, and actionable.</p>
 
----
+  <p>Whether it’s sales trends, churn predictions, or campaign performance, this pipeline brings everything together into one interactive view.</p>
 
-## 🚀 What This Project Does
+  <h2>🚀 What This Project Does</h2>
+  <ul>
+    <li>🔹 Ingests data from sales transactions, customer profiles, and marketing campaigns</li>
+    <li>🔹 Cleans, transforms, and stores the data in a scalable AWS data lake + warehouse</li>
+    <li>🔹 Visualizes insights in beautiful, interactive dashboards using Amazon QuickSight</li>
+    <li>🔹 Helps answer key business questions like:
+      <ul>
+        <li>Who are our most loyal customers?</li>
+        <li>Which products drive the most revenue?</li>
+        <li>Where should we double down on marketing?</li>
+      </ul>
+    </li>
+  </ul>
 
-🔹 Ingests data from sales transactions, customer profiles, and marketing campaigns  
-🔹 Cleans, transforms, and stores the data in a scalable AWS data lake + warehouse  
-🔹 Visualizes insights in beautiful, interactive dashboards using Amazon QuickSight  
-🔹 Helps answer key business questions like:
-- Who are our most loyal customers?
-- Which products drive the most revenue?
-- Where should we double down on marketing?
+  <h2>📁 Sample Data Sources</h2>
+  <p>The project uses simulated versions of the following:</p>
+  <ul>
+    <li><strong>Sales Data</strong> — Product, revenue, quantity, and order time</li>
+    <li><strong>Customer Profiles</strong> — Age, region, account tenure, etc.</li>
+    <li><strong>Marketing Campaigns</strong> — Spend per channel, conversions</li>
+  </ul>
+  <p><em>*You can plug in your own datasets or use open ones (like Kaggle retail data).* </em></p>
 
----
+  <h2>💡 Why I Built This</h2>
+  <p>I wanted to combine my interests in <strong>cloud infrastructure</strong>, <strong>data engineering</strong>, and <strong>business analytics</strong> into one meaningful project. This dashboard isn’t just about tech—it’s about answering the kinds of questions real businesses face every day.</p>
 
-## 📁 Sample Data Sources
+  <p>It also showcases my ability to:</p>
+  <ul>
+    <li>Build secure, scalable data pipelines</li>
+    <li>Work with AWS-native tools across storage, processing, and visualization</li>
+    <li>Translate messy raw data into decisions that matter</li>
+  </ul>
 
-The project uses simulated versions of the following:
-- **Sales Data** — Product, revenue, quantity, and order time
-- **Customer Profiles** — Age, region, account tenure, etc.
-- **Marketing Campaigns** — Spend per channel, conversions
+  <h2>🧠 Key Insights This Dashboard Provides</h2>
+  <ul>
+    <li>📈 Revenue trends (daily, monthly, quarterly)</li>
+    <li>🎯 Customer segmentation (based on behavior & demographics)</li>
+    <li>🔁 Churn analysis and early-warning flags</li>
+    <li>💰 Marketing ROI by channel</li>
+  </ul>
 
-*You can plug in your own datasets or use open ones (like Kaggle retail data).*
+  <h2>📊 Sneak Peek: What the Dashboard Shows</h2>
+  <blockquote>
+    "Last quarter, returning customers contributed 65% of revenue.<br/>
+    Email campaigns had 3x higher ROI than social media."<br/><br/>
+    These aren’t just numbers—they’re your <strong>next strategy</strong>.
+  </blockquote>
 
----
-
-## 💡 Why I Built This
-
-I wanted to combine my interests in **cloud infrastructure**, **data engineering**, and **business analytics** into one meaningful project. This dashboard isn’t just about tech—it’s about answering the kinds of questions real businesses face every day.
-
-It also showcases my ability to:
-- Build secure, scalable data pipelines
-- Work with AWS-native tools across storage, processing, and visualization
-- Translate messy raw data into decisions that matter
-
----
-
-## 🧠 Key Insights This Dashboard Provides
-
-- 📈 Revenue trends (daily, monthly, quarterly)
-- 🎯 Customer segmentation (based on behavior & demographics)
-- 🔁 Churn analysis and early-warning flags
-- 💰 Marketing ROI by channel
-
----
-
-## 📊 Sneak Peek: What the Dashboard Shows
-
-> "Last quarter, returning customers contributed 65% of revenue.  
-> Email campaigns had 3x higher ROI than social media."  
->  
-> These aren’t just numbers—they’re your **next strategy**.
-
----
+</body>
+</html>

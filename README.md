@@ -1,7 +1,7 @@
 # End-to-End-Business-Analytics-Pipeline-Using-AWS
 <!-- README.md -->
 
-# Live Website Preview 🌐 
+# Live Website Preview 🌐 - In Progress
 👉 [Click here to view the full website](https://sreenijakurra.github.io/End-to-End-Business-Analytics-Pipeline-Using-AWS/)
 
 <br>
